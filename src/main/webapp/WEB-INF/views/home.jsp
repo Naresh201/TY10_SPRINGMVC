@@ -1,15 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+      <%@ include file="headerpage.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title></title>
 </head>
 <body>
-<%     String username = (String)  request.getAttribute("username"); 
-String password = (String) request.getAttribute("password");%>
-
-     <h2>your username is: <%= username %>></h2>
+<h1> welcome to ecommerce admin application</h1>
+     
 </body>
 </html>

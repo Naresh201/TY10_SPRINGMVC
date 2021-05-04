@@ -7,15 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-
 <div align="center">
-
-<form action="./login" method="post">
-  ENTER USERNAME : <input type="text" name="username"><br><br>
-  ENTER PASSWORD :<input type="password" name="password"><br><br>
-  <input type="submit" value="SUBMIT">
+<form action="./deleteproduct" method="post">
+<input name="number" name="productid" required="required">
+<input name="submit" value="Delete">
 </form>
 </div>
-
 </body>
 </html>
